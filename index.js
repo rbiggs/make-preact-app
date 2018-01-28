@@ -41,13 +41,6 @@ const createPreactApp = (() => {
       ],
     }),
     replace({
-      from: /replace_package_name/g,
-      to: name,
-      files: [
-        p.join(path, 'package-lock.json')
-      ],
-    }),
-    replace({
       from: /replace_user_name/g,
       to: user,
       files: [
