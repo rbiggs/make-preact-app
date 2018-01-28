@@ -1,0 +1,28 @@
+{
+  "name": "make-preact-app",
+  "version": "0.1.0",
+  "description": "The bare minimum you need to start a project with Preact and Webpack 2.",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --progress --hot --inline"
+  },
+  "author": "rbiggs",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "copy": "^0.3.1",
+    "cp-file": "^4.2.0",
+    "cpr": "^3.0.1",
+    "fs-cp": "^1.4.0",
+    "ncp": "^2.0.0",
+    "replace-in-file": "^2.6.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "writefile": "^0.2.8"
+  },
+  "dependencies": {
+    "preact": "latest"
+  }
+}
