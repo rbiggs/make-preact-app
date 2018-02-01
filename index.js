@@ -26,7 +26,7 @@ name = name.replace(' ', '-')
 let path = p.join(homedir, 'Desktop', name)
 
 const createPreactApp = (() => {
-  console.log('Creating a new Composi project.')
+  console.log('Creating a new Preact project.')
   console.log(`Project name is: ${name}`)
   console.log(`Project is at: ${path}`)
   mkdirp(path)

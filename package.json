@@ -1,12 +1,12 @@
 {
   "name": "make-preact-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "make-preact-app": "./index.js"
   },
   "description": "The bare minimum you need to start a project with Preact and Webpack 2.",
   "scripts": {
-    "Test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rbiggs",
   "license": "MIT",

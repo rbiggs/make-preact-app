@@ -4,7 +4,8 @@
   "description": "The bare minimum you need to start a project with Preact and Webpack 2.",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --progress --hot --inline"
+    "start": "webpack-dev-server --progress --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rbiggs",
   "license": "MIT",
